@@ -19,14 +19,14 @@ body {
     margin: 10px auto;
     max-width: 90%;
     display: grid;
-    flex-flow: column-wrap;
     gap: 15px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .profile {
-    margin: 3%;
-    object-fit: cover;
+    margin-top: 2.5%;
+    width: 300px;
+    overflow-x: clip;
 }
 
 .text {
@@ -35,11 +35,14 @@ body {
     font-family:'Segoe UI', Verdana, sans-serif;
 }
 
-.traits {
-    display: grid;
-
+h3 {
+    margin-top: 5%;
 }
 
+h4 {
+    margin-top: 15%;
+    
+}
 
 .nav {
     position: fixed;
@@ -65,7 +68,7 @@ body {
     color: #ECA6FF ;
     text-decoration: none;
     -webkit-tap-highlight-color: transparent;
-    transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.5s ease-in-out;
 }
 
 .nav__link:hover {
@@ -81,6 +84,8 @@ body {
 }
 
 footer {
+    min-height: 100%;
     color: azure;
     font-size: 0.85em;
+    font-family: Tahoma;
 }

@@ -7,8 +7,13 @@ body {
     margin: 0 0 0 0;
     padding: 0;
     width: 100%;
-    font-size: 0.9em;
+    font-size: 1em;
     background-image: url(Unsplash.jpg);
+}
+
+h1 {
+    color: azure;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .blog {
@@ -20,24 +25,7 @@ body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
-
-.card1__image {
-    width: 100%;
-    display: block;
-}
-
-.card2__image {
-    width: 100%;
-    display: block;
-}
-
-.card3__image {
-    width: 100%;
-    display: block;
-}
-
-.card4__image {
+.card__image {
     width: 100%;
     display: block;
 }
@@ -96,7 +84,7 @@ body {
     color: #ECA6FF ;
     text-decoration: none;
     -webkit-tap-highlight-color: transparent;
-    transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.5s ease-in-out;
 }
 
 .nav__link:hover {
@@ -112,6 +100,8 @@ body {
 }
 
 footer {
+    min-height: 100%;
     color: azure;
     font-size: 0.85em;
+    font-family: Tahoma;
 }
