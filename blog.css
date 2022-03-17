@@ -9,24 +9,29 @@ body {
     width: 100%;
     font-size: 1em;
     background-image: url(Unsplash.jpg);
+    background-position: 50%;
 }
 
 h1 {
     color: azure;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Days One', sans-serif;
+    letter-spacing: 2px;
 }
 
 .blog {
-    margin: 10px auto;
-    max-width: 90%;
+    border: #000000;
+    padding-top: 10px;
+    margin: 2%;
+    max-width: 50%;
+    height: auto;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 15px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Exo', sans-serif
 }
 
 .card__image {
-    width: 100%;
+    width: 90%;
     display: block;
 }
 
@@ -49,7 +54,6 @@ h1 {
 .card__info {
     padding: 10px;
     display: flex;
-    justify-content: space-between;
     background: transparent;
     font-size: 0.8em;
     border-bottom: 2px solid #cccccc;
@@ -67,28 +71,30 @@ h1 {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
     background-color: #FF00FF;
     display: flex;
-    overflow-x: 60%;
+    overflow-x: auto;
 }
 
 .nav__link {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-end;
     flex-grow: 1;
     padding: 10px;
+    border-radius: 35%;
     min-width: 50px;
     overflow: hidden;
     white-space: nowrap;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Orbitron', sans-serif;    
     font-size: 14px;
     color: #ECA6FF ;
     text-decoration: none;
     -webkit-tap-highlight-color: transparent;
-    transition: background-color 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out;
 }
 
-.nav__link:hover {
-    background-color: #A470B2;
+a:hover {
+    color: #ECA6FF;
+    background: #A470B2;
 }
 
 .nav__link--active {
@@ -100,8 +106,10 @@ h1 {
 }
 
 footer {
-    min-height: 100%;
+    position: absolute;
+    bottom: 0;
+    max-height: 0%;
     color: azure;
     font-size: 0.85em;
-    font-family: Tahoma;
+    font-family: 'Exo', sans-serif;
 }

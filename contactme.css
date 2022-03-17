@@ -5,23 +5,34 @@ body {
     text-align: center;
     position: relative;
     padding: 0;
+    height: 95%;
     width: 100%;
     font-size: 1em;
     color: azure;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-image: url(Unsplash.jpg);
+    background-position: 50%;
 }
 
-.contactme {
-    margin-bottom: 6%;
+h1 {
+    font-family: 'Days One', sans-serif;
+    letter-spacing: 2px;
 }
+
 h3 {
-    font-size: 24px;
+    font-family: 'Exo', sans-serif;
+    font-size: 22px;
     margin-top: 8%;
 }
 
+p {
+    font-family: 'Exo', sans-serif;
+}
+
 a {
+    font-family: 'Orbitron', sans-serif;
     color: #ECA6FF;
+    margin-bottom: 5%;
 }
 
 .nav {
@@ -38,22 +49,24 @@ a {
 .nav__link {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-end;
     flex-grow: 1;
     padding: 10px;
+    border-radius: 35%;
     min-width: 50px;
     overflow: hidden;
     white-space: nowrap;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Orbitron', sans-serif;    
     font-size: 14px;
-    color: #ECA6FF ;
+    color: #ECA6FF;
     text-decoration: none;
     -webkit-tap-highlight-color: transparent;
     transition: background-color 0.5s ease-in-out;
 }
 
-.nav__link:hover {
-    background-color: #A470B2;
+a:hover {
+    color: #ECA6FF;
+    background: #A470B2;
 }
 
 .nav__link--active {
@@ -65,8 +78,10 @@ a {
 }
 
 footer {
-    min-height: 100%;
+    position: absolute;
+    bottom: 0;
+    max-height: 0%;
     color: azure;
     font-size: 0.85em;
-    font-family: Tahoma;
+    font-family: 'Exo', sans-serif;
 }
