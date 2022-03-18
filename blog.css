@@ -31,22 +31,27 @@ h1 {
 
 .blog1 {
     background-color: rgba(164, 112, 178, 0.3);
+    border-radius: 10%;
 }
 
 .blog2 {
     background-color: rgba(164, 112, 178, 0.3);
+    border-radius: 10%;
 }
 
 .blog3 {
     background-color: rgba(164, 112, 178, 0.3);
+    border-radius: 10%;
 }
 
 .blog4 {
     background-color: rgba(164, 112, 178, 0.3);
+    border-radius: 10%;
 }
 
 .blog5 {
     background-color: rgba(164, 112, 178, 0.3);
+    border-radius: 10%;
 }
 
 .card__image {
@@ -72,7 +77,7 @@ h1 {
 }
 
 .card__info {
-    padding: 10px;
+    padding: 30px;
     display: flex;
     background: transparent;
     font-size: 0.8em;
