@@ -29,6 +29,31 @@ h1 {
     font-family: 'Exo', sans-serif
 }
 
+.blog1 {
+    background-color: rgba(164, 112, 178, 0.3);
+    border-radius: 10%;
+}
+
+.blog2 {
+    background-color: rgba(164, 112, 178, 0.3);
+    border-radius: 10%;
+}
+
+.blog3 {
+    background-color: rgba(164, 112, 178, 0.3);
+    border-radius: 10%;
+}
+
+.blog4 {
+    background-color: rgba(164, 112, 178, 0.3);
+    border-radius: 10%;
+}
+
+.blog5 {
+    background-color: rgba(164, 112, 178, 0.3);
+    border-radius: 10%;
+}
+
 .card__image {
     width: 100%;
     border-radius: 10%;
@@ -41,8 +66,6 @@ h1 {
     padding: 12px;
     color: azure;
     background: transparent;
-    background-color: rgba(164, 112, 178, 0.3);
-    border-radius: 10%;
 }
 
 .card__text > p:first-of-type {
