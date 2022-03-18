@@ -38,13 +38,15 @@ h3 {
     font-family: 'Exo', sans-serif;
     margin-top: 2%;
     padding: 12px;
-    font-size: 0.88em;
+    font-size: 1em;
     padding-left: 15%;
     padding-right: 15%;
 }
 
 p {
     padding-top: 3%;
+    background-color: #A470B2 rgba(red, green, blue, 0.2);
+    border-radius: 8%;
 }
 
 .nav {

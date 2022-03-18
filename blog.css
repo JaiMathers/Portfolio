@@ -41,6 +41,8 @@ h1 {
     padding: 12px;
     color: azure;
     background: transparent;
+    background-color: #A470B2 rgba(red, green, blue, 0.2);
+    border-radius: 10%;
 }
 
 .card__text > p:first-of-type {
