@@ -22,7 +22,6 @@ h1 {
     border: #000000;
     padding-top: 10px;
     margin: 2%;
-    max-width: 50%;
     height: auto;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -41,7 +40,7 @@ h1 {
     padding: 12px;
     color: azure;
     background: transparent;
-    background-color: #A470B2 rgba(red, green, blue, 0.2);
+    background-color: rgba(164, 112, 178, 0.2);
     border-radius: 10%;
 }
 
