@@ -28,7 +28,7 @@ body {
 .profile {
     margin-top: 2.5%;
     width: 300px;
-    overflow-x: clip;
+    border-radius: 10%;
 }
 
 .text {
